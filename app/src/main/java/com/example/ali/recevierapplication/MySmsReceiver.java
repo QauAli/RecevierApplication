@@ -15,7 +15,7 @@ public class MySmsReceiver extends BroadcastReceiver {
             MySmsReceiver.class.getSimpleName();
     public static final String pdu_type = "pdus";
 
-    @TargetApi(Build.VERSION_CODES.M)
+   // @TargetApi(Build.VERSION_CODES.M) 
     @Override
     public void onReceive(Context context, Intent intent) {
 
