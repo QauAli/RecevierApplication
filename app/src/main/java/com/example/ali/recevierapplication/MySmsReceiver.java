@@ -5,9 +5,6 @@ import android.content.Intent;
 import android.widget.Toast;
 
 public class MySmsReceiver extends BroadcastReceiver {
-    private static final String TAG =
-            MySmsReceiver.class.getSimpleName();
-    public static final String pdu_type = "pdus";
     @Override
     public void onReceive(Context context, Intent intent) {
 
